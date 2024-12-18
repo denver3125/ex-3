@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fb; /* Light blue-gray for the background */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Neutral gray for text */
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px 30px;
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #007bff; /* Vibrant blue for the heading */
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    flex: 1 1 100%;
+    color: #555;
+}
+
+input[type="text"] {
+    flex: 1 1 calc(70% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff; /* Blue buttons */
+    color: #ffffff;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #f8f9fa; /* Light gray background for notes */
+    border: 1px solid #ddd; /* Subtle border for separation */
+    margin: 8px 0;
+    padding: 12px 15px;
+    border-radius: 6px;
+    color: #333;
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    color: #777;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    input[type="text"] {
+        flex: 1 1 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        flex: 1 1 100%;
+    }
+}
+
